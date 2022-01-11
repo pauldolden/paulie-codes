@@ -1,13 +1,14 @@
 <script lang="ts">
-  import { currentNavStore } from '../../stores';
+  import { currentNavStore } from '../../../stores';
 
   import { fly } from 'svelte/transition';
   currentNavStore;
 
   const social = [
-    { name: 'twitter', iconPath: '/svg/twitter.svg' },
-    { name: 'linkedin', iconPath: '/svg/linkedin.svg' },
-    { name: 'github', iconPath: '/svg/github.svg' }
+    { name: 'twitter', iconPath: '/svg/twitter.svg', href: 'https://twitter.com/pauldolden' },
+    { name: 'linkedin', iconPath: '/svg/linkedin.svg', href: 'https://github.com/pauldolden' },
+    { name: 'github', iconPath: '/svg/github.svg', href: 'https://linkedin.com/in/pauldolden' },
+    { name: 'email', iconPath: '/svg/envelope.svg', href: 'mailto:paul@dolden.dev' }
   ];
 </script>
 
@@ -19,9 +20,9 @@
 
     <nav class="flex gap-6">
       {#each social as socialItem, i}
-        <button>
+        <a href={socialItem.href} target="_blank" class="select-none">
           <img src={socialItem.iconPath} alt={socialItem.name} class="text-white cursor-pointer" />
-        </button>
+        </a>
       {/each}
     </nav>
   </div>

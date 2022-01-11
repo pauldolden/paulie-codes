@@ -1,8 +1,10 @@
 <script lang="ts">
   import type { Breakpoint } from 'src/types/Breakpoint';
-  import { currentNavStore } from '../../stores';
+  import { currentNavStore } from '../../../stores';
   import { onMount } from 'svelte';
-  import { generateBreakpoints } from '../../utils/helpers/generateBreakpoints';
+  import { generateBreakpoints } from '../../../utils/helpers/generateBreakpoints';
+  import { goto } from '$app/navigation';
+  import { navigation } from '../../../data';
 
   export let numberOfLinks;
   let posX = 20;
@@ -30,6 +32,11 @@
       if (offset > bp.min && offset < bp.max) {
         if (index !== current) {
           currentNavStore.set(index);
+          if (navigation[index].name === 'home') {
+            goto('/');
+          } else {
+            goto(navigation[index].name);
+          }
         }
       }
     });
@@ -68,10 +75,10 @@
 
 <svelte:window on:keydown={handleKeydown} on:keyup={handleKeyup} />
 
-<div class="w-full h-[120px] relative" bind:clientWidth={conW}>
+<div class="w-full h-[80px] relative" bind:clientWidth={conW}>
   {#if showBubble}
     <div
-      class="bg-bubble bg-no-repeat w-[140px] h-[140px] p-[12px] font-cokobi text-sm absolute left-[40px] top-[-90px] flex"
+      class="bg-bubble bg-no-repeat w-[140px] h-[140px] p-[12px] font-cokobi text-sm absolute  top-[-90px] flex"
     >
       Move me with 'A' and 'D'... Or click the buttons. I'm not the boss of you.
     </div>
@@ -94,7 +101,7 @@
   :root {
     --width: 45px;
     --height: 45px;
-    --pixel-size: 3;
+    --pixel-size: 2.3;
   }
 
   .container {

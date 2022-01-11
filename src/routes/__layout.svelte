@@ -1,8 +1,11 @@
 <script lang="ts">
-  import Footer from '$lib/footer/Footer.svelte';
-  import Header from '$lib/header/Header.svelte';
+  import dayjs from 'dayjs';
+  import Footer from '$lib/components/footer/Footer.svelte';
+  import Header from '$lib/components/header/Header.svelte';
+  let mainH;
   import '../app.css';
-  let isDark = false;
+  let hour = dayjs().hour();
+  $: isDark = hour < 8 || hour > 17;
 </script>
 
 <div class={`${isDark ? 'bg-tertiary-400' : 'bg-primary-400'}`}>
@@ -12,8 +15,11 @@
       isDark ? 'bg-night bg-tertiary-400' : 'bg-clouds bg-primary-400`'
     } bg-no-repeat`}
   >
-    <main class="flex-1 max-h-[80vh] overflow-hidden container mx-auto">
-      <slot />
+    <main
+      class="flex-1 overflow-clip container mx-auto flex items-center"
+      bind:clientHeight={mainH}
+    >
+      <slot {mainH} />
     </main>
     <Footer bind:isDark />
   </div>

@@ -1,11 +1,10 @@
 <script lang="ts">
-  import Character from '$lib/character/Character.svelte';
-  import NavItem from '$lib/navItem/NavItem.svelte';
+  import Character from '$lib/components/character/Character.svelte';
+  import NavItem from '$lib/components/navItem/NavItem.svelte';
+  import { navigation } from '../../../data';
 
   // Props
   export let isDark: boolean;
-
-  export const navigation = [{ name: 'about' }, { name: 'work' }, { name: 'blog' }, { name: 'cv' }];
 
   let numberOfLinks = navigation.length;
 </script>

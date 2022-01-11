@@ -10,17 +10,22 @@ module.exports = {
       backgroundImage: {
         clouds: "url('/svg/clouds.svg')",
         night: 'url(/svg/night.svg)',
-        bubble: 'url(/svg/bubble.svg)'
+        bubble: 'url(/svg/bubble.svg)',
+        map: 'url(/images/map.png)'
       },
       colors: {
         primary: {
-          400: '#7aceff'
+          400: '#87ceeb'
         },
         secondary: {
           400: '#FF5151'
         },
         tertiary: {
           400: '#161E54'
+        },
+        silver: {
+          400: '#b5b7bb',
+          500: '#a8a9ad'
         },
         editor: {
           bg: '#151130',
@@ -46,5 +51,5 @@ module.exports = {
       }
     }
   },
-  plugins: []
+  plugins: [require('tailwind-scrollbar')]
 };
