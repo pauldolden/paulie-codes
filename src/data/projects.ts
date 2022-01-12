@@ -4,7 +4,7 @@ export const projects = [
     iconPath: '/svg/react.svg',
     data: {
       desc: 'Social networking mobile application aimed at health professionals, to discuss their life in healthcare.',
-      role: 'I designed and developed the front end of this healthcare centric social network mobile application, and its web based admin panel. I also acted as project manager for the build and oversaw the development of the back-end APIs.',
+      role: 'I designed and developed the front end of this healthcare centric social network mobile application, and its web based admin panel. ',
       href: 'https://talkcare.co.uk',
       stack: [
         'React Native/React',
@@ -21,7 +21,7 @@ export const projects = [
     name: 'Dementia Dictionary',
     iconPath: '/svg/react.svg',
     data: {
-      desc: 'A forum for professionals and family to dicuss their experiences with dealing with people with dementia.',
+      desc: 'A mobile application forum for professionals and family to dicuss their experiences of caring for people with dementia.',
       role: 'I designed and developed the front end of this mobile application, with a focus on adapting and enhancing the functionality and design of the existing web site, into a mobile application. ',
       href: 'https://dementiadictionary.com',
       stack: ['React Native', 'TypeScript', 'Expo', 'Redux', 'XCode', 'Android Studio']

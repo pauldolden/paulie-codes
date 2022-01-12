@@ -1,6 +1,8 @@
 <script lang="ts" context="module">
   const posts = import.meta.glob('./*.md');
 
+  console.log(posts);
+
   let body = [];
 
   for (const path in posts) {
@@ -15,6 +17,10 @@
       }
     };
   };
+</script>
+
+<script lang="ts">
+  export let posts;
 </script>
 
 {JSON.stringify(posts)}

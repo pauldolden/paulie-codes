@@ -18,7 +18,8 @@
         <div>
           <div class="flex text-editor-textIcons text-sm bg-editor-tabBar gap-2">
             {#each data as project, i}
-              <div
+              <button
+                on:click={() => (active = i)}
                 class={`p-2 font-bold border-t-2 select-none cursor-pointer flex gap-2 ${
                   active === i
                     ? 'text-editor-active border-editor-active bg-editor-tab'
@@ -26,10 +27,10 @@
                 }`}
               >
                 <img src={project.iconPath} alt="project icon" class="w-5" />
-                <button on:click={() => (active = i)}>
+                <p>
                   {project.name}
-                </button>
-              </div>
+                </p>
+              </button>
             {/each}
           </div>
           <div class="bg-editor-tabBarAlt px-2 py-1 text-xs text-gray-300 drop-shadow-md">

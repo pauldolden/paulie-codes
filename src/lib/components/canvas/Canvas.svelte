@@ -40,7 +40,7 @@
       canvasX = e.clientX - canvasBounds.left;
       canvasY = e.clientY - canvasBounds.top + 32;
       context.lineTo(canvasX, canvasY);
-      context.strokeStyle = '#000';
+      context.strokeStyle = '#FF5151';
       context.stroke();
     }
   };

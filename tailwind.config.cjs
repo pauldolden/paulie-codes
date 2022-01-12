@@ -27,6 +27,11 @@ module.exports = {
           400: '#b5b7bb',
           500: '#a8a9ad'
         },
+        postIt: {
+          pink: '#ff7eb9',
+          blue: '#7afcff',
+          yellow: '#fff740'
+        },
         editor: {
           bg: '#151130',
           sidebar: '#120b27',

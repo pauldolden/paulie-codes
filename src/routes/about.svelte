@@ -25,9 +25,8 @@
           <div class="w-full grid justify-end grid-cols-2 grid-rows-2 gap-1">
             <div class="col-start-1 row-start-2 ">
               <div
-                class="bg-white shadow-xl pb-3 w-[100%] my-2 font-cokobi text-md flex flex-col items-center skew-y-1"
+                class="bg-postIt-pink shadow-xl pb-3 w-[100%] my-2 font-cokobi text-xl flex flex-col items-center skew-y-1"
               >
-                <div class="bg-red-600 w-3 h-3 rounded-full my-2" />
                 <h3 class="underline">Enjoys</h3>
                 <div>
                   <ul class="list-disc list-inside">
@@ -43,9 +42,8 @@
             </div>
             <div class="col-start-2">
               <div
-                class="bg-white shadow-xl w-[100%] my-2 font-cokobi pb-3 flex flex-col items-center -skew-y-1 relative z-10"
+                class="bg-postIt-yellow shadow-xl w-[100%] text-xl my-2 font-cokobi pb-3 flex flex-col items-center -skew-y-1 relative z-10"
               >
-                <div class="bg-red-600 w-3 h-3 rounded-full my-2" />
                 <h3 class="underline">Bio</h3>
                 <div>
                   <ul class="list-disc list-inside">
@@ -64,7 +62,6 @@
             </div>
             <div>
               <div class="bg-white p-2 shadow-xl skew-y-1 flex flex-col items-center">
-                <div class="bg-red-600 w-3 h-3 rounded-full mb-2" />
                 <img src="/images/tonks.png" alt="tonks" />
                 <p class="font-cokobi text-2xl">Tonks (Kingpin?)</p>
               </div>
@@ -83,7 +80,6 @@
             </div>
             <div class="flex flex-col items-center justify-center col-start-2">
               <div class="bg-white p-2 shadow-xl flex flex-col items-center skew-y-1 relative">
-                <div class="bg-red-600 w-3 h-3 rounded-full mb-2" />
                 <img src="/images/PD.png" alt="Paul Dolden" class="h-[300px]" />
                 <h2 class="font-cokobi text-3xl mb-2">Paul Dolden</h2>
               </div>
@@ -93,15 +89,13 @@
             <div
               class="bg-white p-2 shadow-xl flex flex-col items-center skew-y-1 mt-4 col-span-2 row-start-1 absolute max-w-full"
             >
-              <div class="bg-red-600 w-3 h-3 rounded-full mb-2" />
               <img src="/images/train.jpg" alt="train" />
               <p class="font-cokobi text-2xl">Paul likes trains?</p>
             </div>
             <div class="col-start-1 row-start-1">
               <div
-                class="bg-white shadow-xl w-[100%] my-2 text-md font-cokobi flex flex-col items-center pb-3 relative z-10 skew-y-1"
+                class="bg-postIt-blue shadow-xl w-[100%] my-2 text-xl font-cokobi flex flex-col items-center pb-3 relative z-10 skew-y-1"
               >
-                <div class="bg-red-600 w-3 h-3 rounded-full my-2" />
                 <h3 class="underline">Skills</h3>
                 <div class="self-start">
                   <ul class="list-disc list-inside">
@@ -120,26 +114,23 @@
             </div>
             <div class="col-start-1 row-start-2">
               <div
-                class="bg-white shadow-xl w-[100%] my-2 text-md font-cokobi flex flex-col items-center pb-3 skew-y-1 relative z-20"
+                class="bg-postIt-yellow shadow-xl w-[100%] my-2 text-xl font-cokobi flex flex-col items-center pb-3 skew-y-1 relative z-20"
               >
-                <div class="bg-red-600 w-3 h-3 rounded-full my-2" />
-                <h3 class="underline">Interests</h3>
+                <h3 class="underline">Fact Sheet</h3>
                 <div class="self-start pb-2">
                   <ul class="list-disc list-inside">
-                    <li>Slightly obsessive developer, who is passionate about the web.</li>
+                    <li>Obsessive developer, who is passionate about the web</li>
                     <li>Enjoys shiny new things</li>
-                    <li>Tries to design things, but invariably fails.</li>
-                    <li>Enjoys writing all sorts of code, but is front-end focused.</li>
-                    <li>Always trying to be a better developer and/or human.</li>
+                    <li>Motivated by chances to learn</li>
+                    <li>Always trying to be better</li>
                   </ul>
                 </div>
               </div>
             </div>
             <div class="col-start-2 row-start-1">
               <div
-                class="bg-white shadow-xl w-[100%] my-2 text-md font-cokobi flex flex-col items-center pb-3 skew-y-1 relative z-5"
+                class="bg-postIt-pink shadow-xl w-[100%] my-2 text-xl font-cokobi flex flex-col items-center pb-3 skew-y-1 relative z-5"
               >
-                <div class="bg-red-600 w-3 h-3 rounded-full my-2" />
                 <h3 class="underline">Skills (cont'd)</h3>
                 <div class="self-start pb-2">
                   <ul class="list-disc list-inside">
@@ -157,9 +148,8 @@
             </div>
             <div class="col-start-2 row-start-2">
               <div class="bg-white p-2 shadow-xl skew-y-1 flex flex-col items-center">
-                <div class="bg-red-600 w-3 h-3 rounded-full mb-2" />
                 <img src="/images/acaba.jpg" alt="tonks" class="w-full" />
-                <p class="font-cokobi text-2xl">?? (Accomplice?)</p>
+                <p class="font-cokobi text-2xl">??</p>
               </div>
             </div>
           </div>
