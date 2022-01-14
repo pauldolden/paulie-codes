@@ -18,12 +18,15 @@ module.exports = {
           400: '#87ceeb'
         },
         secondary: {
-          400: '#FF5151'
+          400: '#FF5151',
+          500: '#B30505'
         },
         tertiary: {
           400: '#161E54'
         },
         silver: {
+          50: '#FAFAFA',
+          100: '#d1cfd1',
           400: '#b5b7bb',
           500: '#a8a9ad'
         },
@@ -52,6 +55,10 @@ module.exports = {
             pink: '#da6fd2',
             green: '#3EDE7F'
           }
+        },
+        newspaper: {
+          bg: '#E1E3DD',
+          ink: '#1A1C1A'
         }
       }
     }
