@@ -31,7 +31,7 @@ Cue a chorus of _"How hard can it be to learn this stuff?"_.
 
 The answer, of course, was pretty bloody hard.
 
-I did, however, find myself immediately swept up by the sense of frustrating fulfillment that comes with things not working and subsequently aspiring to make them work, and my desire to learn became a bit of an obsession.
+I did, however, find myself immediately swept up by the frustrating sense of fulfillment that comes with things not working and subsequently aspiring to make them work, and my desire to learn became a bit of an obsession.
 
 The (rather strange) old saying goes "there's more than one way to skin a cat", and it's a very apt one for describing the process of learning to code. I, however, think of the venture in slightly different and far less gruesome terms.
 
@@ -49,7 +49,7 @@ I thinking when wandering into this world, there are many ways to take your firs
 
 I think if you take this third option there are a couple of things you can do to help mitigate your chances of starving or getting eaten by bears and such. Everyone will tell you from the outset, the best way to learn this stuff is to pick a language, any language (within reason), and just learn it. Learn it well, find somewhere safe, build a camp and find your bearings. There is a reason why everyone says this, because it's a smart thing to do. Once you have a solid grounding, some place warm to come back to, it becomes increasingly easy to take little expeditions outside of your comfort zone, with the knowledge that whatever you find out there, you have somewhere you can keep it safe. Oftentimes when you are trying to learn a broad range of things, depth of understanding in one area can spawn the fundamentals necessary to soak in that breadth of knowledge.
 
-I tried to do this, I really did. When I started out I decided that Python was for me. I was going to become an expert and be lauded the world over for my unrivaled experience and intellect... but like I said, I am very much the overthinker. I liked Python. I found it easy to write and easy enough to understand, and I made some steps forward and learned some very cool interesting things, and it got me hooked on writing code. My problem is that I'm a bit of an explorer. I don't go outside so much, but I like to experiment with this thing, that thing, whatever is shiny really and it can oftentimes be hugely detrimental to my learning goals.
+Listen, I tried to do this, I really did. When I started out I decided that Python was for me. I was going to become an expert and be lauded the world over for my unrivaled experience and intellect... but like I said, I am very much the overthinker. I liked Python. I found it easy to write and easy enough to understand, and I made some steps forward and learned some very cool interesting things, and it got me hooked on writing code. My problem is that I'm a bit of an explorer. I don't go outside so much, but I like to experiment with this thing, that thing, whatever is shiny really and it can oftentimes be hugely detrimental to my learning goals.
 
 This is a common trap, I know and I think I am particularly susceptible to falling into it, "Is this language the best/coolest/funniest/hardest/easiest". I ended up down that hole 5 or 6 times and ultimately it meant that a good stretch of my journey into tech has been spent wandering around fairly aimlessly, without making any significant progress.
 
