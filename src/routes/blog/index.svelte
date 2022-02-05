@@ -23,8 +23,14 @@
   import Page from '$lib/components/page/Page.svelte';
   import { onMount } from 'svelte';
   import { scale } from 'svelte/transition';
+  import { blogPageStore } from '../../stores';
 
+  let currentPage = 0;
   let show = false;
+
+  blogPageStore.subscribe((value) => {
+    currentPage = value;
+  });
 
   onMount(() => {
     setTimeout(() => {
@@ -42,8 +48,8 @@
         class="h-full w-full bg-secondary-400 rounded-lg flex flex-col items-center justify-end px-4"
       >
         <div class="h-full w-full grid grid-cols-2 grid-rows-1 m-3">
-          <Page side="left" />
-          <Page side="right" />
+          <Page front={posts[currentPage]} back={posts[currentPage + 2]} side="left" />
+          <Page front={posts[currentPage + 1]} back={posts[currentPage + 3]} side="right" />
         </div>
         <div class="h-4 w-14 bg-secondary-500 rounded-t-md" />
       </div>

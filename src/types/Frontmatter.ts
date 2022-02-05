@@ -4,4 +4,5 @@ export interface Frontmatter {
   category: string;
   description: string;
   imagePath: string;
+  imageTitle: string;
 }
